@@ -5,6 +5,9 @@ C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\bin\Debug\
 C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.csprojResolveAssemblyReference.cache
 C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.exe
 C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.pdb
-C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\bin\Debug\Előrejelzés.exe.config
-C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.exe
-C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\bin\Debug\elore.exe.config
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\bin\Debug\elore.exe
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\bin\Debug\elore.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\obj\Debug\elore.exe
+C:\Users\bordak.tamas\Desktop\nemes12\Előrejelzés\Előrejelzés\Előrejelzés\obj\Debug\elore.pdb
