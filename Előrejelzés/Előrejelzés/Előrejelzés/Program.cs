@@ -64,7 +64,9 @@ class Program
         {
             n = list[i] > k ? n+1 : 0;
             nm = n > nm ? n : nm;
-        }        
+        }
+        if (nm == 0)
+            return -1;
         return nm;
     }
     static int lg(List<int> list)
