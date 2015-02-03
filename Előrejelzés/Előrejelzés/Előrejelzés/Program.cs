@@ -11,11 +11,12 @@ class Program
     {
         var tmp = new List<int>();
         tmp.Add(0);
-        var a = File.ReadAllLines("elore.be").Select(x => x.Split().Select(y => int.Parse(y)).ToList()).ToList().Select((val, i) => new { n = tmp.ToList(), i, val }).ToList();
+        var a = File.ReadAllLines("elore.be").Select(x => x.Split().Select(y => int.Parse(y)).ToList()).Select((val, i) => new { n = tmp.ToList(), i, val }).ToList();
         int k = a[0].val[2];
-
         a.RemoveAt(0);
+
         StreamWriter sw = new StreamWriter("elore.ki");
+
         {
             int maxIndex = -1;
             int maxValue = -1;
@@ -34,26 +35,25 @@ class Program
             a.ForEach(x => { if (la(x.val, k) > maxValue) { maxValue = la(x.val, k); maxIndex = x.i; } });
             sw.WriteLine(maxIndex);
         }
-
-        for (int i = 0; i < a[0].val.Count; i++)
         {
-            var col = new List<int>();
-            for (int j = 0; j < a.Count; j++)
+            for (int i = 0; i < a[0].val.Count; i++)
             {
-                col.Add(a[j].val[i]);
+                var col = new List<int>();
+                for (int j = 0; j < a.Count; j++)
+                {
+                    col.Add(a[j].val[i]);
+                }
+                var ap = col.Select((val, id) => new { id, val }).OrderByDescending(x => x.val).ToList();
+                var p = ap[0].val == ap[1].val ? -1 : ap[0].id;
+                if (p != -1)
+                    a[p].n[0]++;
             }
-            var p = lg(col);
-            if(p!= -1)
-                a[p].n[0]++;
-            
+            var b = a.Select(x => new { i = x.i, n = x.n[0], val = x.val }).OrderByDescending(x => x.n).ToList();            
+            var ki = (b[0].n == b[1].n && 0 == b[1].n) ? -1 : b[0].i;
+            sw.WriteLine(ki);
         }
-        var b = a.Select(x => new { i = x.i, n = x.n[0], val = x.val });
-        var c = b.OrderByDescending(x=>x.n).ToList();
-        var ki = (c[0].n == c[1].n && 0== c[1].n) ? -1 : c[0].i;
-
-        sw.WriteLine(ki);
         sw.Flush();
-        
+
     }
 
     static int la(List<int> list, int k)
@@ -68,11 +68,6 @@ class Program
         if (nm == 0)
             return -1;
         return nm;
-    }
-    static int lg(List<int> list)
-    {
-        var a = list.Select((val, i) => new { i, val }).OrderByDescending(x=>x.val).ToList();
-        return a[0].val == a[1].val ? -1 : a[0].i;
     }
 }
 
