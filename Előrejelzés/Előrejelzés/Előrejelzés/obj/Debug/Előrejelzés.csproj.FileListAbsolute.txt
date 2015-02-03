@@ -1,0 +1,7 @@
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\bin\Debug\Előrejelzés.exe.config
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\bin\Debug\elore.be
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\bin\Debug\Előrejelzés.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\bin\Debug\Előrejelzés.pdb
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\Előrejelzés\Előrejelzés\obj\Debug\Előrejelzés.pdb
