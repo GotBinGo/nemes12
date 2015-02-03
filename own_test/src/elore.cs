@@ -16,53 +16,37 @@ class Program
         a.RemoveAt(0);
 
         StreamWriter sw = new StreamWriter("elore.ki");
-
+        var kn = a.Select(x => new {x, f1 = x.val.Max(), f2 = x.val.Average(), f3 = la(x.val, k) });
+        sw.WriteLine(kn.OrderByDescending(x => x.f1).First().x.i);
+        sw.WriteLine(kn.OrderByDescending(x => x.f2).First().x.i);        
+        var tn = kn.OrderByDescending(x => x.f3).First();
+        sw.WriteLine(tn.f3 == -1 ? -1 : tn.x.i );
+        
+		for (int i = 0; i < a[0].val.Count; i++)
         {
-            int maxIndex = -1;
-            int maxValue = -1;
-            a.ForEach(x => { if (x.val.Max() > maxValue) { maxValue = x.val.Max(); maxIndex = x.i; } });
-            sw.WriteLine(maxIndex);
-        }
-        {
-            double maxIndex = -1;
-            double maxValue = -1;
-            a.ForEach(x => { if (x.val.Average() > maxValue) { maxValue = x.val.Average(); maxIndex = x.i; } });
-            sw.WriteLine(maxIndex);
-        }
-        {
-            double maxIndex = -1;
-            double maxValue = -1;
-            a.ForEach(x => { if (la(x.val, k) > maxValue) { maxValue = la(x.val, k); maxIndex = x.i; } });
-            sw.WriteLine(maxIndex);
-        }
-        {
-            for (int i = 0; i < a[0].val.Count; i++)
+            var col = new List<int>();
+            for (int j = 0; j < a.Count; j++)
             {
-                var col = new List<int>();
-                for (int j = 0; j < a.Count; j++)
-                {
-                    col.Add(a[j].val[i]);
-                }
-                var ap = col.Select((val, id) => new { id, val }).OrderByDescending(x => x.val).ToList();
-                var p = ap[0].val == ap[1].val ? -1 : ap[0].id;
-                if (p != -1)
-                    a[p].n[0]++;
+                col.Add(a[j].val[i]);
             }
-            var b = a.Select(x => new { i = x.i, n = x.n[0], val = x.val }).OrderByDescending(x => x.n).ToList();            
-            var ki = (b[0].n == b[1].n && 0 == b[1].n) ? -1 : b[0].i;
-            sw.WriteLine(ki);
+            var ap = col.Select((val, id) => new { id, val }).OrderByDescending(x => x.val).ToList();
+            var p = ap[0].val == ap[1].val ? -1 : ap[0].id;
+            if (p != -1)
+                a[p].n[0]++;
         }
+        var b = a.Select(x => new { i = x.i, n = x.n[0], val = x.val }).OrderByDescending(x => x.n).ToList();
+        var ki = (b[0].n == b[1].n && 0 == b[1].n) ? -1 : b[0].i;
+        sw.WriteLine(ki);
+        
         sw.Flush();
-
     }
-
     static int la(List<int> list, int k)
     {
         int nm = -1;
         int n = 0;
         for (int i = 0; i < list.Count; i++)
         {
-            n = list[i] > k ? n+1 : 0;
+            n = list[i] > k ? n + 1 : 0;
             nm = n > nm ? n : nm;
         }
         if (nm == 0)

@@ -1,0 +1,12 @@
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\bin\Debug\elore.exe.config
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\bin\Debug\elore.exe
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\bin\Debug\elore.pdb
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\obj\Debug\elore.csprojResolveAssemblyReference.cache
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\obj\Debug\elore.exe
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\elore\elore\obj\Debug\elore.pdb
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\bin\Debug\elore.exe.config
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\obj\Debug\elore.exe
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\obj\Debug\elore.pdb
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\bin\Debug\elore.exe
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\bin\Debug\elore.pdb
+C:\Users\Tomi\Desktop\nemes12\work\elore\elore\obj\Debug\elore.csprojResolveAssemblyReference.cache

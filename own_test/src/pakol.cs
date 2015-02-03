@@ -25,7 +25,5 @@ class Program
         StreamWriter sw = new StreamWriter("pakol.ki");
         sw.WriteLine(n);
         sw.Flush();
-
-            
     }
 }
