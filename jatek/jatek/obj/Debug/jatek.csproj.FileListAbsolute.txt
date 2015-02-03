@@ -1,0 +1,7 @@
+C:\Users\Tomi\Documents\Visual Studio 2013\Projects\jatek\jatek\bin\Debug\jatek.exe.config
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\bin\Debug\jatek.exe.config
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\obj\Debug\jatek.csprojResolveAssemblyReference.cache
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\bin\Debug\jatek.exe
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\bin\Debug\jatek.pdb
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\obj\Debug\jatek.exe
+C:\Users\Tomi\Desktop\nemes12\jatek\jatek\obj\Debug\jatek.pdb
