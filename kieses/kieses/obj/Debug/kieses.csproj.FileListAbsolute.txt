@@ -1,0 +1,6 @@
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\bin\Debug\kieses.exe.config
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\bin\Debug\kieses.exe
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\bin\Debug\kieses.pdb
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\obj\Debug\kieses.csprojResolveAssemblyReference.cache
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\obj\Debug\kieses.exe
+C:\Users\Tomi\Desktop\nemes12\kieses\kieses\obj\Debug\kieses.pdb
