@@ -47,7 +47,7 @@ class Program
         for (int i = 0; i < list.Count; i++)
         {
             n = list[i] > k ? n + 1 : 0;
-            nm = n > nm ? n : nm;
+            nm = n > nm ? n : nm;			
         }
         if (nm == 0)
             return -1;
