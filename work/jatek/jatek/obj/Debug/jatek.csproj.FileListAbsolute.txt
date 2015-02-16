@@ -5,3 +5,9 @@ C:\Users\Tomi\Desktop\nemes12\jatek\jatek\bin\Debug\jatek.exe
 C:\Users\Tomi\Desktop\nemes12\jatek\jatek\bin\Debug\jatek.pdb
 C:\Users\Tomi\Desktop\nemes12\jatek\jatek\obj\Debug\jatek.exe
 C:\Users\Tomi\Desktop\nemes12\jatek\jatek\obj\Debug\jatek.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\bin\Debug\jatek.exe.config
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\obj\Debug\jatek.exe
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\obj\Debug\jatek.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\bin\Debug\jatek.exe
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\bin\Debug\jatek.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\jatek\jatek\obj\Debug\jatek.csprojResolveAssemblyReference.cache

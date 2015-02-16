@@ -5,3 +5,9 @@ C:\Users\Tomi\Desktop\nemes12\pakol\pakol\bin\Debug\pakol.pdb
 C:\Users\Tomi\Desktop\nemes12\pakol\pakol\obj\Debug\pakol.csprojResolveAssemblyReference.cache
 C:\Users\Tomi\Desktop\nemes12\pakol\pakol\obj\Debug\pakol.exe
 C:\Users\Tomi\Desktop\nemes12\pakol\pakol\obj\Debug\pakol.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\bin\Debug\pakol.exe.config
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\obj\Debug\pakol.exe
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\obj\Debug\pakol.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\bin\Debug\pakol.exe
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\bin\Debug\pakol.pdb
+C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\obj\Debug\pakol.csprojResolveAssemblyReference.cache
