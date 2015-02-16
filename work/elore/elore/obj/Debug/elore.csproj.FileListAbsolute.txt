@@ -16,3 +16,6 @@ C:\Users\bordak.tamas\Desktop\nemes12\work\elore\elore\obj\Debug\elore.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\elore\elore\bin\Debug\elore.exe
 C:\Users\bordak.tamas\Desktop\nemes12\work\elore\elore\bin\Debug\elore.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\elore\elore\obj\Debug\elore.csprojResolveAssemblyReference.cache
+C:\tom\nemes12\work\elore\elore\bin\Debug\elore.exe.config
+C:\tom\nemes12\work\elore\elore\obj\Debug\elore.exe
+C:\tom\nemes12\work\elore\elore\obj\Debug\elore.pdb
