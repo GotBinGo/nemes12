@@ -34,7 +34,7 @@ namespace elore
         static int ma(List<Tuple<int, int>> list)
         {
             var tmp = list.OrderByDescending(x => x.Item1).ToList();
-            var p = tmp[0].Item1 == tmp[1].Item1 ? tmp[0].Item2 : -1;            
+            var p = tmp[0].Item1 == tmp[1].Item1 ? -1 : tmp[0].Item2;
             return p == 0 ? -1 : p;
         }
     }
