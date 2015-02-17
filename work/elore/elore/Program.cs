@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class Program
 {
@@ -17,10 +15,10 @@ class Program
 
         using (StreamWriter sw = new StreamWriter("elore.ki"))
         {
-            var kn = a.Select(x => new { x, f1 = x.val.Max(), f2 = x.val.Average(), f3 = la(x.val, k) });
-            sw.WriteLine(kn.OrderByDescending(x => x.f1).First().x.i);
-            sw.WriteLine(kn.OrderByDescending(x => x.f2).First().x.i);
-            var tn = kn.OrderByDescending(x => x.f3).First();
+            var table = a.Select(x => new { x, f1 = x.val.Max(), f2 = x.val.Average(), f3 = la(x.val, k) });
+            sw.WriteLine(table.OrderByDescending(x => x.f1).First().x.i);
+            sw.WriteLine(table.OrderByDescending(x => x.f2).First().x.i);
+            var tn = table.OrderByDescending(x => x.f3).First();
             sw.WriteLine(tn.f3 == -1 ? -1 : tn.x.i);
 
             for (int i = 0; i < a[0].val.Count; i++)
@@ -42,16 +40,8 @@ class Program
     }
     static int la(List<int> list, int k)
     {
-        int nm = -1;
-        int n = 0;
-        for (int i = 0; i < list.Count; i++)
-        {
-            n = list[i] > k ? n + 1 : 0;
-            nm = n > nm ? n : nm;
-        }
-        if (nm == 0)
-            return -1;
-        return nm;
+        var p = string.Join("", list.Select(x => x > k ? 1 : 0)).Split('0').Max(x => x.Length);
+        return  p == 0 ? -1:  p ;
     }
 }
 

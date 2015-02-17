@@ -10,3 +10,9 @@ C:\Users\bordak.tamas\Desktop\nemes12\work\kieses\kieses\obj\Debug\kieses.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\kieses\kieses\bin\Debug\kieses.exe
 C:\Users\bordak.tamas\Desktop\nemes12\work\kieses\kieses\bin\Debug\kieses.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\kieses\kieses\obj\Debug\kieses.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\bin\Debug\kieses.exe.config
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\bin\Debug\kieses.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\bin\Debug\kieses.pdb
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\obj\Debug\kieses.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\obj\Debug\kieses.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\kieses\kieses\obj\Debug\kieses.pdb

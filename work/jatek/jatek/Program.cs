@@ -21,7 +21,6 @@ class Program
             n--;
             sum += c.su;
         }
-
         using (StreamWriter sw = new StreamWriter("jatek.ki"))
             sw.WriteLine(sum);
     }

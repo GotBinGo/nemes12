@@ -11,3 +11,9 @@ C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\obj\Debug\pakol.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\bin\Debug\pakol.exe
 C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\bin\Debug\pakol.pdb
 C:\Users\bordak.tamas\Desktop\nemes12\work\pakol\pakol\obj\Debug\pakol.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\bin\Debug\pakol.exe.config
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\bin\Debug\pakol.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\bin\Debug\pakol.pdb
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\obj\Debug\pakol.csprojResolveAssemblyReference.cache
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\obj\Debug\pakol.exe
+C:\Users\bordak.tamas\Desktop\Git\nemes12\work\pakol\pakol\obj\Debug\pakol.pdb
